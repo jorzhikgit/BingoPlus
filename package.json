@@ -1,0 +1,43 @@
+{
+  "name": "bingo-plus",
+  "version": "1.0.0",
+  "description": "Online Bingo Game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint routes app.js",
+    "lint-fix": "eslint routes app.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Astro36/BingoPlus.git"
+  },
+  "keywords": [
+    "bingo",
+    "game"
+  ],
+  "author": {
+    "name": "Astro36",
+    "email": "astr36@naver.com",
+    "url": "http://astro36.me"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Astro36/BingoPlus/issues"
+  },
+  "homepage": "https://github.com/Astro36/BingoPlus#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.0.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.3",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

@@ -1,0 +1,26 @@
+.navbar-fixed
+  nav
+    .nav-wrapper
+      a.brand-logo.center(href="index" style="max-width: 50%; max-height: 56px; overflow:hidden;")= title
+      a.button-collapse(href="#" data-activates="mobile-nav")
+        i.material-icons menu
+      ul.right.hide-on-med-and-down
+        li: a(href="index") Home
+        li: a(href="index") Home
+        li: a.dropdown-button(href="#!" data-activates="dropdown-menu" data-beloworigin="true") Others
+          i.material-icons.right arrow_drop_down
+
+ul.dropdown-content#dropdown-menu
+  li: a.waves-effect(href="index") Home
+  li: a.waves-effect(href="index") Home
+  li: a.waves-effect(href="index") Home
+
+ul.side-nav#mobile-nav
+  li
+    .user-view
+      .background.blue
+      img.circle.materialboxed(data-caption="Bingo" src="https://github.com/Astro36.png")/
+      span.name.white-text Play Bingo
+  li: a.waves-effect(href="index") Home
+  li: a.waves-effect(href="index") Home
+  li: a.waves-effect(href="index") Home

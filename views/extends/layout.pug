@@ -1,0 +1,18 @@
+doctype html
+
+html(lang="ko")
+  head
+    include ../includes/meta.pug
+    include ../includes/css.pug
+    block css
+    title= title
+  body
+    header
+      include ../includes/nav.pug
+    main
+      section
+        block content
+    footer.page-footer
+      include ../includes/footer.pug
+    include ../includes/js.pug
+    block js
